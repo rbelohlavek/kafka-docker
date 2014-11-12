@@ -11,6 +11,7 @@ kafka:
     - zookeeper:zk
   environment:
     KAFKA_ADVERTISED_HOST_NAME: 192.168.59.103
+    # Comment out the follow three ENVs if you are running Linux
     DOCKER_HOST: tcp://192.168.59.103:2376
     DOCKER_CERT_PATH: /certs
     DOCKER_TLS_VERIFY: 1
