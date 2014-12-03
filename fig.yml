@@ -1,5 +1,5 @@
 zookeeper:
-  image: jplock/zookeeper:latest
+  image: wurstmeister/zookeeper:latest
   ports:
     - "2181"
 kafka:
